@@ -1,11 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Simple Site</title>
+  <title>My Achievements</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }
+
+    .achievement-list {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 0;
+      list-style: none;
+    }
+
+    .achievement-list li {
+      background-color: #fff;
+      margin-bottom: 15px;
+      padding: 20px;
+      border-left: 6px solid #3498db;
+      border-radius: 5px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .highlight {
+      color: #3498db;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <p>This is my simple site.</p>
+
+  <h1>My Achievements</h1>
+
+  <ul class="achievement-list">
+    <li>🏆 Won <span class="highlight">2 out of 5</span> categories in <strong>NERC'25</strong> (National Education Research Conference).</li>
+    <li>🥇 Won <span class="highlight">18 out of 21</span> categories in <strong>HSRC'25</strong> (High School Research Competition).</li>
+    <li>🌍 Participated in the <strong>World Scholar’s Cup (WSC)</strong>, winning:
+      <ul>
+        <li>✔️ <span class="highlight">2 Regional Rounds</span></li>
+        <li>✔️ <span class="highlight">2 Global Rounds</span></li>
+        <li>🎓 Qualified for the <span class="highlight">Tournament of Champions</span> at <strong>Yale University</strong></li>
+      </ul>
+    </li>
+  </ul>
+
 </body>
 </html>
